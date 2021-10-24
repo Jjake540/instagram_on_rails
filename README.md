@@ -1,16 +1,36 @@
-# AceBook
+Instagram Challenge
+===================
 
-REQUIRED INSTRUCTIONS:
+## Task
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+Build Instagram: Simple huh!
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+Your challenge is to build Instagram using Rails. You'll need **users** who can post **pictures**, write **comments** on pictures and **like** a picture. Style it like Instagram's website (or more awesome).
 
-2. The card wall is here: <please update>
+Bonus if you can add filters!
 
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+## How to start
+
+1. Produce some stories, break them down into tasks, and estimate
+2. Fork this repo, clone, etc
+3. Initialize a new rails project
+
+Remember to proceed in small steps! Getting confused? Make the steps even smaller.
+
+## Code Quality
+
+For linting, you can use the `.rubocop.yml`
+
+```ruby
+group :development, :test do
+  gem 'rubocop', '1.20', require: false
+  gem 'rubocop-rails'
+end
+```
+
+You can also lint Javascript, CSS, and ERB — feel free to research this. These
+will help you to train yourself to produce cleaner code — and will often alert
+you to mistakes or mishaps!
 
 ## Quickstart
 
